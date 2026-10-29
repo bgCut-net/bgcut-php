@@ -1,0 +1,6 @@
+/vendor/
+composer.lock
+/examples/output/*
+!/examples/output/.gitkeep
+.env
+.DS_Store

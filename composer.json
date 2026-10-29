@@ -1,0 +1,13 @@
+{
+    "name": "bgCut-net/bgcut-php",
+    "description": "Official PHP client for the bgCut.net background removal API – remove image backgrounds with AI in one call.",
+    "type": "library",
+    "keywords": ["background removal", "remove background", "image", "ai", "bgcut", "transparent png", "remove.bg alternative"],
+    "homepage": "https://bgcut.net/api",
+    "license": "MIT",
+    "authors": [{"name": "Webmint s.r.o.", "email": "support@bgcut.net", "homepage": "https://bgcut.net"}],
+    "support": {"email": "support@bgcut.net", "docs": "https://bgcut.net/api", "issues": "https://github.com/bgCut-net/bgcut-php/issues"},
+    "require": {"php": ">=8.1", "ext-curl": "*", "ext-json": "*"},
+    "autoload": {"psr-4": {"BgCut\\": "src/"}},
+    "minimum-stability": "stable"
+}
